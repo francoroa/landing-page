@@ -2,6 +2,15 @@
   border: 2px solid red;
 }
 
-.header, .intro, .info, .quoute, .outro, .footer {
+body {
     display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
