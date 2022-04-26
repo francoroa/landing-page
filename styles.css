@@ -1,0 +1,7 @@
+* {
+  border: 2px solid red;
+}
+
+.header, .intro, .info, .quoute, .outro, .footer {
+    display: flex;
+}
