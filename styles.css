@@ -4,7 +4,7 @@
 
 body {
     display: flex;
-    height: 100vh;
+    min-height: 100%;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -19,7 +19,7 @@ body {
     align-items: center;
 }
 
-.info {
+.info, .second, .slides, .action, .containertwo, .footer, .first {
     display: flex;
     justify-content: center;
 }
@@ -30,14 +30,13 @@ body {
     order: -1;
 }
 
-.first {
+.container {
     display: flex;
+    flex-direction: column;
 }
 
 .quote {
-    height: 40%;
-}
-
-.footer {
-    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
