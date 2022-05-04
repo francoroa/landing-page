@@ -14,9 +14,30 @@ body {
 }
 .header {
     display: flex;
-    height: 20%;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding-left: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.abstract {
+    display: flex;
+    flex-direction: column;
+    order: -1;
+}
+
+.first {
+    display: flex;
+}
+
+.quote {
+    height: 40%;
+}
+
+.footer {
+    height: 20%;
 }
