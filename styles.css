@@ -104,7 +104,9 @@ img {
     padding-right: 15px;
     padding-top: 3px;
     padding-bottom: 3px;
-    border-radius: 5px
+    border-radius: 5px;
+    border: 1px solid #3882f6;
+    cursor: pointer;
 }
 
 .slides {
@@ -193,7 +195,9 @@ img {
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10px;
-    border: 1px solid #f9faf8 
+    border: 1px solid #f9faf8;
+    background-color: #3882f6;
+    cursor: pointer;
 }
 
 #btext {
@@ -201,4 +205,18 @@ img {
     font-size: 14px;
     margin: 0%;
     color: #f9faf8;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1f2937;
+    
+}
+#copyright {
+    margin: 0%;
+    color: #f9faf8;
+    align-self: center;
+    font-size: 12px;
+    font-weight: lighter;
 }
