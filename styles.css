@@ -1,5 +1,4 @@
 
-
 body {
     display: flex;
     min-height: 100%;
@@ -35,7 +34,7 @@ a {
     margin-right: 5px;
 }
 
-.info, .second, .slides, .action, .containertwo, .footer, .first {
+.info, .second, .slides, .action, .footer, .first {
     display: flex;
     justify-content: center;
 }
@@ -70,6 +69,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #E5E7EB;
 }
 
 img {
@@ -95,7 +95,7 @@ img {
     color: #E5E7EB;
 }
 
-.button.first {
+.button-first {
     align-self: flex-start;
     width: fit-content;
     height: auto;
@@ -124,4 +124,81 @@ img {
 
 .second-title {
     margin-top: 0%;
+}
+
+.quote-container {
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.quote-text, .quote-text-two, .bfirst, .bsecond {
+    margin: 0%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: justify;
+}
+
+.quote-text-two {
+    text-align: right;
+    font-weight: bold;
+}
+
+.action {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.button-container {
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.button-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.bfirst {
+    font-weight: bold;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.bsecond {
+    font-size: 14px;
+    font-weight: 100;
+    color: #f9faf8;
+}
+
+.button {
+    align-self: center;
+    width: fit-content;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid #f9faf8 
+}
+
+#btext {
+    display: flex;
+    font-size: 14px;
+    margin: 0%;
+    color: #f9faf8;
 }
